@@ -1,0 +1,20 @@
+.square {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  /* height: 960px;
+  width: 960px; */
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
