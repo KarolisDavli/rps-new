@@ -1,20 +1,21 @@
 .square {
-  width: 32px;
-  height: 32px;
+  width: auto;
+  height: auto;
   border: 1px solid black;
   border-radius: 2px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(16, 1fr);
-  /* height: 960px;
-  width: 960px; */
+  height: 575px;
+  width: 575px;
 }
 
 #app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  gap: 1rem;
   align-items: center;
   height: 100vh;
 }
